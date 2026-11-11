@@ -1,0 +1,17 @@
+UNIVERSITY SYSTEM - REPAIRED
+
+1. Keep your old 'university system' folder as a backup.
+2. Extract University_System_REPAIRED.zip (right-click > Extract All).
+3. Open the extracted University_System_REPAIRED folder in VS Code.
+4. In Terminal > New Terminal run:
+   py check_database.py
+   py -m pip install -r requirements.txt
+   py "db APPS.py"
+5. Open http://127.0.0.1:5000/ in the browser address bar.
+
+IMPORTANT: Open the EXTRACTED folder, not the previous folder.
+The database is named exactly: student individual university system.db
+The database includes Ram Magar, Chrish Rai, and Maya Gurung.
+The Python application checks that all 3 database tables exist before starting.
+
+If port 5000 is busy, stop the old Flask server with Ctrl+C.
